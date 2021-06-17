@@ -1,8 +1,17 @@
 {
   "name": "iocvideolibrary",
   "version": "1.0.0",
-  "description": "service for accessing videos from a repositories that uses dependency injections",
-  "main": "videoManager.js",
+  "description": "IoC Library Example",
+  "main": "src/videoController.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/jest": "^26.0.23",
+    "babel-jest": "^27.0.2",
+    "jest": "^27.0.4"
+  },
   "scripts": {
     "test": "jest --coverage"
   },
@@ -10,21 +19,10 @@
     "type": "git",
     "url": "git+https://github.com/StackOverFlowWhereArtThou/IoCVideoLibrary.git"
   },
-  "keywords": [
-    "IoC",
-    "Dependency",
-    "Injection"
-  ],
   "author": "Harry Fox",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/StackOverFlowWhereArtThou/IoCVideoLibrary/issues"
   },
-  "homepage": "https://github.com/StackOverFlowWhereArtThou/IoCVideoLibrary#readme",
-  "devDependencies": {
-    "@babel/preset-env": "^7.14.5",
-    "babel-jest": "^27.0.2",
-    "babel-polyfill": "^6.26.0",
-    "jest": "^27.0.4"
-  }
+  "homepage": "https://github.com/StackOverFlowWhereArtThou/IoCVideoLibrary#readme"
 }
