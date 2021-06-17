@@ -1,5 +1,6 @@
-import {IVideoRepo} from '../repos/videoRepo'
+import {IVideoRepo} from '../components/videoRepo'
 
+// created a mock of the video repo that will not require a connection to a DB
 export class MockVideoRepo implements IVideoRepo {
     private videos: Video[] = []
 

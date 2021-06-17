@@ -9,6 +9,6 @@ export interface IVideoRepo {
 class VideoRepo{
     constructor(){}
     findVideos(): Promise<Video[]> {
-        // this should house code to pull videos from a DB, but that is outside scope
+        // this should house code to pull vides from a DB, but that is outside scope for this example
     }
 }
