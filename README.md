@@ -9,7 +9,7 @@ Inversion of Control Library example: a simple service for accessing videos from
     - Removes the need to mock-up / stub dependencies in testing 
 
 ## Key Features
-- Can add view all video in our codebase
+- Video Controller Can add view all video in our codebase
 - Full test coverage of code
 
 ## Future features to add
