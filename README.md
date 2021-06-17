@@ -1,5 +1,5 @@
-# IoCVideoLibrary
-Inversion of Control example: a service for accessing videos from a repositories that uses dependency injections
+# IoC Video Library
+Inversion of Control Library example: a simple service for adding and accessing videos from a video repository that uses dependency injections to decouple the video service from its dependencies
 
 **Advantages of DI construction:**
 1. Decoupleing of Code from specific modules
